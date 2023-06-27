@@ -1,1 +1,7 @@
 tips/hints/tears)
+
+DB:
+Change your models (in models.py).
+Run python manage.py makemigrations to create migrations for those changes
+__optional__ python manage.py sqlmigrate polls 0001 ---cool SQL-ish shit)
+Run python manage.py migrate to apply those changes to the database.
