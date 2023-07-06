@@ -11,3 +11,12 @@ SUPERUSER:
 admin
 zbs@
 3141
+
+COMMANDS:
+python manage.py startapp polls
+python manage.py makemigrations polls --create dir
+python manage.py migrate
+python manage.py runserver
+python manage.py shell
+python manage.py test polls
+python manage.py createsuperuser
