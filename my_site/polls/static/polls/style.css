@@ -1,0 +1,17 @@
+li a {
+    color: aquamarine;
+}
+
+ul {
+    color: black;
+    background-color: dimgrey
+}
+
+p {
+    color: red;
+    background-color: dimgrey;
+}
+
+body {
+    background: dimgrey url("images/background.png") no-repeat;
+}
